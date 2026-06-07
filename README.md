@@ -1,52 +1,30 @@
-# Travis Yip xAI Portfolio
+# Travis Yip — xAI AI Tutor Chinese Portfolio
 
-Static GitHub Pages portfolio for the xAI AI Tutor - Chinese application.
+Static GitHub Pages portfolio for the xAI AI Tutor – Chinese application (Greenhouse ID 5090180007).
 
-## Files to add before publishing
+**Live site:** https://accesaver-byte.github.io/xAI-Portfolio/
 
-Add these real assets:
+## What's included
 
-- `assets/audio/travis-yip-chinese-voice-sample.mp3`
-- `assets/audio/travis-yip-english-voice-sample.mp3`
-- `assets/docs/travis-yip-annotated-transcript.pdf`
-- `assets/docs/travis-yip-resume.pdf`
-
-Then update the placeholder Google Drive links in `index.html`:
-
-- `https://drive.google.com/`
-
-Replace each placeholder with the public `Anyone with the link -> Viewer` URL.
+| File | Description |
+|------|-------------|
+| `index.html` + `styles.css` | Single-page portfolio: hero, 4 voice samples, annotated transcript, fit, values |
+| `assets/audio/travis-yip-chinese-voice-sample.mp3` | Mandarin voice sample (~95 s) |
+| `assets/audio/travis-yip-english-voice-sample.mp3` | Business English voice sample |
+| `assets/audio/travis-yip-cantonese-voice-sample.mp3` | Cantonese dialect sample |
+| `assets/audio/travis-yip-sichuan-mandarin-voice-sample.mp3` | Sichuan Mandarin sample |
+| `assets/docs/travis-yip-resume.pdf` | One-page xAI-focused resume |
+| `assets/docs/travis-yip-annotated-transcript.pdf` | Annotated transcript with pronunciation, intonation, pauses, and disfluency notes |
 
 ## Local preview
 
-Use any static server from this folder:
-
-```powershell
+```bash
 python -m http.server 8080
-```
-
-Then open:
-
-```text
-http://localhost:8080
-```
-
-## GitHub Pages deployment
-
-1. Create a GitHub repository named `xai-portfolio`.
-2. Push this folder to the repository `main` branch.
-3. In GitHub, open `Settings -> Pages`.
-4. Set source to `Deploy from branch`, branch `main`, folder `/root`.
-5. Test the published URL in a private browser window.
-
-Expected project URL:
-
-```text
-https://<username>.github.io/xai-portfolio/
+# open http://localhost:8080
 ```
 
 ## Notes
 
-- This page does not use xAI logos or imply affiliation.
+- No xAI logos or implied affiliation.
 - Audio does not autoplay.
-- The values note is intentionally restrained and does not include sensitive personal political details.
+- Google Drive backup links in `index.html` should be updated with real public share URLs after uploading to Drive (`Anyone with the link → Viewer`).

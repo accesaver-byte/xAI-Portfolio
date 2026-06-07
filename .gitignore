@@ -4,3 +4,13 @@ desktop.ini
 *.tmp
 *.log
 output/
+._*
+# duplicate root-level audio files
+Mandarin Voice sample.mp3
+English Voice sample.mp3
+Cantonese voice sample.mp3
+Sichuan Mandarin voice sample.mp3
+# transcript HTML source (PDF is the deliverable)
+assets/docs/annotated-transcript-print.html
+# local dev notes
+CLAUDE.md
